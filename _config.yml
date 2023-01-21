@@ -28,16 +28,16 @@ description: >- # this means to ignore newlines until "baseurl:"
   [noun] an expert; someone distinguished in their field
   [noun] a virtuous or high-ranking Buddhist priest or monk
   [noun] a Buddhist priest or monk in general
-  [noun] a monk who has gone into seclusion for purposes of asceticism and spiritual enlightenment
-  [noun] a monk who has adopted an itinerant lifestyle for purposes of asceticism and spiritual enlightenment, supporting themselves by gathering alms and food contributions; by extension, an itinerant preacher monk from Mount Kōya
-  [noun] (euphemistic) alternate name for 清酒 (seishu, “refined sake”)
-  [noun] a textile peddler (from the resemblance to itinerant 高野聖 (Kōya hijiri) Buddhist preachers who would carry everything on their backs)
+  [noun] me.
+baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://hijiri.umemoto.org" # the base hostname & protocol for your site, e.g. http://example.com
 ###twitter_username: jekyllrb
 ##github_username: mumyollc 
 ##youtube_username: "@mumyo_"
 
+timezone: Asia/Tokyo
 
 # Build settings
 theme: minima
