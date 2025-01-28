@@ -21,14 +21,8 @@
 title: Hijiri
 email: hijiri@umemoto.org
 description: >- # this means to ignore newlines until "baseurl:"
-  hijiri [聖/ひじり] 
-  [noun] a very virtuous or godly person; a saint
-  [noun] (honorific) the emperor
-  [noun] a sage
-  [noun] an expert; someone distinguished in their field
-  [noun] a virtuous or high-ranking Buddhist priest or monk
-  [noun] a Buddhist priest or monk in general
-  [noun] me.
+  hijiri [梅本聖/うめもと・ひじり] 
+  美術よりのエンジニア.
 baseurl: "" # the subpath of your site, e.g. /blog
 baseurl: "" # the subpath of your site, e.g. /blog
 baseurl: "" # the subpath of your site, e.g. /blog
