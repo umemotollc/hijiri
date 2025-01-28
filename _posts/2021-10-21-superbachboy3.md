@@ -6,8 +6,11 @@ categories: concert
 youtubeId: EKFb66A6bdM
 ---
 
-"SUPERBACHBOY 3" (2021)
+## アコースティックと電子音楽を組み合わせた、「チェロ vs. 観客」の対戦型音楽作品。
+
+"SUPERBACHBOY 3" (2021)  
 for cello, electronics, electronic bulletin boards, acceleration sensor and Super-Famicom-controllers.
+
 
 - Comp.: Yuri UMEMOTO / 梅本佑利
 - Cello: Kei YAMAZAWA / 山澤慧
@@ -19,7 +22,9 @@ Recorded at "Mind Tree Vol.7", Tokyo Concerts Lab., Tokyo, on 21th of October 20
 
 {% include youtubePlayer.html id=page.youtubeId %}
 
-## アコースティックと電子音楽を組み合わせた、「チェロ vs. 観客」の対戦型音楽作品。
+
+
+## 弦楽器用モーションセンサ、ワイヤレス・コントローラ及びこれらと連動するLEDパネルを備えた対戦型ゲームシステム
 
 チェロの弓には、加速度センサーを搭載したマイコンを設置(Nordic nRF52833)。Bluetooth LEでPC(Macbook Pro)に信号を送り、チェロの弓の動きに合わせて攻撃パターンを変化させる。
 
