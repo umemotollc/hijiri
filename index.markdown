@@ -4,3 +4,7 @@
 
 layout: home
 ---
+
+## Slides
+
+- [『ウィキピディア』と『ウィキペディア』](./slides/2026-03-01-wikimedia25.html)
