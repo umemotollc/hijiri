@@ -29,7 +29,7 @@ jobs:
           marp
           --html
           --output slides/2026-03-01-wikimedia25.html
-          slides/src/2026-03-01-wikimedia25.md
+          _slides_src/2026-03-01-wikimedia25.md
 
       - name: Commit generated slides
         uses: stefanzweifel/git-auto-commit-action@v5
