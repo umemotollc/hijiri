@@ -16,13 +16,20 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Build HTML slides with Marp
-        uses: marp-team/marp-cli-action@v3
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
         with:
-          args: >-
-            --html
-            --output slides/2026-03-01-wikimedia25.html
-            slides/src/2026-03-01-wikimedia25.md
+          node-version: "20"
+
+      - name: Install Marp CLI
+        run: npm install -g @marp-team/marp-cli
+
+      - name: Build HTML slides with Marp
+        run: >-
+          marp
+          --html
+          --output slides/2026-03-01-wikimedia25.html
+          slides/src/2026-03-01-wikimedia25.md
 
       - name: Commit generated slides
         uses: stefanzweifel/git-auto-commit-action@v5
